@@ -14,5 +14,8 @@
             "js": ["custom_style.js"],
             "all_frames": true
         }
-    ]
+    ],
+    "icons": {
+        "16": "clock-icon.png"
+    }
 }
