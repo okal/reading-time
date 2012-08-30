@@ -1,17 +1,18 @@
 {
-    "name": "Reading time for Chrome",
+    "name": "Reading Time for Chrome",
     "version": "0.0.1",
     "manifest_version": 2,
     "description": "Get the estimated reading time before reading a post.",
     "permissions": [
         "contextMenus",
+        "tabs",
         "http://*/*",
         "https://*/*"
     ],
     "content_scripts": [
         {
             "matches": ["http://*/*", "https://*/*"],
-            "js": ["custom_style.js"],
+            "js": ["smoke.min.js", "custom_style.js"],
             "all_frames": true
         }
     ],
@@ -19,7 +20,8 @@
         "scripts": ["script.js"]
     },
     "web_accessible_resources": [
-        "custom_style.css"
+        "smoke.css",
+        "cheetah.css"
     ],
     "icons": {
         "16": "clock-icon.png"
