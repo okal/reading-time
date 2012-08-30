@@ -1,0 +1,4 @@
+# Vim files
+*.swp
+*.swo
+*.fuse_hidden*
