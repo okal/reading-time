@@ -15,6 +15,12 @@
             "all_frames": true
         }
     ],
+    "background": {
+        "scripts": ["script.js"]
+    },
+    "web_accessible_resources": [
+        "custom_style.css"
+    ],
     "icons": {
         "16": "clock-icon.png"
     }
