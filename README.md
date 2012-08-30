@@ -2,16 +2,16 @@ Reading Time for Chrome
 =======================
 
 Reading Time for Chrome lets you know how long it will take to read a post before
-you start. The data comes from [Samrat Man Singh] (http://samrat.me)'s Reading Time
-API. Simply right click on a link and click "How long will this take?".
+you click through. The data comes from [Samrat Man Singh] (http://samrat.me)'s Reading Time
+API. Simply right click on a link and select "How long will this take?".
 
 Installation
 ============
 
 I don't have a Chrome extension developer's account, so you have to install
-this manually. To install, 
+this manually.
 
-1. Click the little wrench icon at the top right corner of the browser window.
+1. Click the wrench icon at the top right corner of the browser window.
 2. Go to Tools > Extensions
 3. Check "Developer Mode"
 4. Download this repository and unzip it.
@@ -20,7 +20,7 @@ this manually. To install,
 7. ???
 8. Profit?
 
-NB: You'll need to reload any previously opened pages for the extension to take
+NB: You will need to reload any previously opened pages for the extension to take
 effect on them.
 
 Credits
