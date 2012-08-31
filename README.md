@@ -8,8 +8,11 @@ API. Simply right click on a link and select "How long will this take?".
 Installation
 ============
 
-I don't have a Chrome extension developer's account, so you have to install
-this manually.
+There are two ways to install Reading Time.
+
+Go to https://chrome.google.com/webstore/detail/iplcjbefaijjgpjjojcnpfpmhbfglloc on the Chrome Webstore.
+
+For the development version, follow the following instructions.
 
 1. Click the wrench icon at the top right corner of the browser window.
 2. Go to Tools > Extensions
