@@ -5,7 +5,7 @@
     "description": "Get the estimated reading time before reading a post.",
     "icons": {
         "128": "res/icons/clock-icon.png"
-    }
+    },
     "permissions": [
         "contextMenus",
         "tabs",
