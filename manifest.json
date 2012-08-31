@@ -12,20 +12,19 @@
     "content_scripts": [
         {
             "matches": ["http://*/*", "https://*/*"],
-            "css": ["smoke.css"],
-            "js": ["smoke.js"],
+            "css": ["lib/smoke/css/smoke.css"],
+            "js": ["lib/smoke/js/smoke.min.js"],
             "run_at": "document_start",
             "all_frames": false
         }
     ],
     "background": {
-        "scripts": ["script.js"]
+        "scripts": ["src/js/script.js"]
     },
     "web_accessible_resources": [
-        "smoke.css",
-        "cheetah.css"
+        "smoke.css"
     ],
     "icons": {
-        "16": "clock-icon.png"
+        "16": "res/icons/clock-icon.png"
     }
 }
