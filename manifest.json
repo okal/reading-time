@@ -12,7 +12,7 @@
     "content_scripts": [
         {
             "matches": ["http://*/*", "https://*/*"],
-            "css": ["smoke.css", "cheetah.css"],
+            "css": ["smoke.css"],
             "js": ["smoke.js"],
             "run_at": "document_start",
             "all_frames": false
